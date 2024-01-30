@@ -1,0 +1,160 @@
+
+body {
+	margin: 0;
+	background-color: rgb(71, 71, 71);
+	font-family: "News Cycle", sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: right;
+	background-color: rgb(0, 0, 0);
+}
+
+nav a {
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+}
+
+nav a:hover {
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+
+.basicsec h1 {
+	color:white;
+	text-align: center;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 500%;
+}
+
+.basicsec h2 {
+	color:white;
+	text-align: center;
+}
+
+#background {
+	position: absolute;
+	object-fit: cover;
+	top: 0rem;
+	z-index: -1;
+	height: 600px;
+	width: 100%;
+}
+
+.intropic {
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.introdiv {
+	margin-top: 500px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.introdivtext {
+	max-width: 30%;
+	color: white
+}
+
+.aboutdiv h2 {
+	text-align: center;
+	color: rgb(255, 255, 255)
+}
+
+.card {
+	background-color: rgb(158, 158, 158);
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card img {
+	height: 40%
+}
+
+.three-col {
+	display: grid;
+	grid-template-columns: 275px 275px 275px;
+	grid-template-rows: 400px;
+	justify-content: space-evenly;
+	background-color: rgba(0, 0, 0, 0.658);
+}
+
+.card h3 {
+	text-align: center;
+}
+
+.card ul {
+	padding-left: 20%;
+}
+
+.card dl {
+	padding-left: 10%;
+}
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+footer p {
+	color: white;
+}
+
+footer a:hover {
+	background-color: rgb(255, 255, 255);
+	color: black
+}
+
+.one-col {
+	display: grid;
+	grid-template-columns: 100%;
+	justify-content: center;
+}
+
+form input {
+	display: block;
+	margin: 0 auto
+}
+
+form p {
+	text-align: center;
+}
+
+form input[type=text] {
+	width: 60%;
+	height: 20px;
+	border: 2px solid black;
+	border-radius: 4px;
+	text-align: center;
+}
+
+form input[type=submit] {
+	display: block;
+	margin: 0 auto
+}
+
+textarea {
+	width: 60%;
+	display: block;
+	margin: 0 auto
+}
