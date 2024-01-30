@@ -73,7 +73,6 @@ nav a:hover {
 	margin: 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .card img {
@@ -90,6 +89,7 @@ nav a:hover {
 
 .card h3 {
 	text-align: center;
+	margin: 1px;
 }
 
 .card ul {
